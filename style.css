@@ -6,6 +6,9 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --brand-beige: hsl(39, 100%, 97%);
+  --background: hsl(148, 23%, 89%);
+
 
 }
 
@@ -26,6 +29,7 @@ header {
   margin-left: auto;
   margin-top: 4.1rem;
   margin-bottom: 1.6rem;
+  background-color: var(--background);
 }
 
 h4 {
@@ -67,3 +71,35 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  color: var(--headline);
+}
+
+.dados p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--primary-color);
+  margin-bottom: auto;
+}
+
+.dados {
+  background-color: var(--brand-beige);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+img {
+  margin-bottom: -2.5rem;
+}
+
