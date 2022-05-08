@@ -294,13 +294,10 @@ body.menu-expanded .close-menu {
   gap: 6rem;
   border: 1px solid var(--background);
   border-radius: 0.6rem;
+  margin-bottom: -10rem;
 }
 
 /* ==================== SERVICES ======================= */
-
-#services {
-  padding-top: 0;
-}
 
 #services header h2 {
   margin-bottom: 6rem;
